@@ -2,6 +2,32 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sist.main.Hello"/>
     <fullyQualifiedTypeName name="com.sist.main3.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.sist.main.Sawon"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.sist.main2.Member"/>
+    <fullyQualifiedTypeName name="com.sist.mapper.EmpMapper"/>
+    <fullyQualifiedTypeName name="com.sist.dao.EmpDAO"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+    <fullyQualifiedTypeName name="com.sist.vo.EmpVO"/>
+    <fullyQualifiedTypeName name="org.xml.sax.helpers.DefaultHandler"/>
+    <fullyQualifiedTypeName name="javassist.compiler.MemberResolver.Method"/>
+    <fullyQualifiedTypeName name="org.aspectj.apache.bcel.classfile.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
+    <fullyQualifiedTypeName name="com.sist.main2.XMLParse"/>
+    <fullyQualifiedTypeName name="com.sist.main3.Human"/>
+    <fullyQualifiedTypeName name="com.sist.main2.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.sist.main2.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.sist.main3.Member"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.sist.main.Student"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.sist.config.StudentConfig"/>
 </qualifiedTypeNameHistroy>
