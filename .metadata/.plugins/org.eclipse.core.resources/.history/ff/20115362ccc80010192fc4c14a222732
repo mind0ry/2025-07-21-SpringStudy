@@ -1,0 +1,11 @@
+package com.sist.main2;
+// 서로 다른 클래스 연결해서 사용하는 기법
+public class HelloImp1 implements Hello{
+
+	@Override
+	public void sayHello(String name) {
+		// TODO Auto-generated method stub
+		System.out.println(name+"님 환영합니다!!");
+	}
+
+}

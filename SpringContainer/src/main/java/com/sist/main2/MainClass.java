@@ -1,0 +1,11 @@
+package com.sist.main2;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Hello hello=new HelloImp1();
+		hello.sayHello("Ω…√ª¿Ã");
+	}
+
+}
