@@ -4,6 +4,8 @@
 <aop-project name="SpringDIProject_2"/>
 <aop-project name="SpringDIProject_3"/>
 <aop-project name="SpringDIProject_4"/>
+<aop-project name="SpringDIProject_5"/>
 <aop-project name="SpringContainer"/>
+<aop-project name="SpringAnnotationProject"/>
 <aop-project name="SpringDIProject"/>
 </aop-reference-model>
