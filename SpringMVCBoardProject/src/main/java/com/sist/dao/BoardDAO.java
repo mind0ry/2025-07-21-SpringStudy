@@ -2,6 +2,9 @@ package com.sist.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -41,4 +44,69 @@ public class BoardDAO {
 		
 		mapper.boardInsert(vo);
 	}
+	
+/*
+ * 	@Update("UPDATE springBoard SET "
+			+ "hit=hit+1 "
+			+ "WHERE no=#{no}")
+	public void hitIncrement(int no);
+	
+	@Select("SELECT no,name,subject,content,hit,TO_CHAR(regdate,'YYYY-MM-DD HH24:MI:SS') as dbday "
+			+ "FROM springBoard "
+			+ "WHERE no=#{no}")
+	public BoardVO boardDetailData(int no);
+ */
+	public BoardVO boardDetailData(int no) {
+		
+		mapper.hitIncrement(no);
+		
+		return mapper.boardDetailData(no);
+	}
+	
+/*
+ * 	@Select("SELECT pwd FROM springBoard WHERE no=#{no}")
+	public String boardGetPassword(int no);
+	
+	@Delete("DELETE FROM springBoard WHERE no=#{no}")
+	public void boardDelete(int no);
+ */
+	public String boardDelete(int no,String pwd) {
+		
+		String db_pwd=mapper.boardGetPassword(no);
+		String res="";
+		
+		if(db_pwd.equals(pwd)) {
+			
+			res="yes";
+			mapper.boardDelete(no);
+		}
+		
+		return res;
+	}
+	
+	public BoardVO boardUpdateData(int no) {
+		
+		return mapper.boardDetailData(no);
+	}
+	
+/*
+ * 	@Update("UPDATE springBoard SET "
+			+ "subject=#{subject},name=#{name},content=#{content} "
+			+ "WHERE no=#{no}")
+	public void boardUpdate(BoardVO vo);
+ */
+	public boolean boardUpdate(BoardVO vo) {
+		
+		boolean res=false;
+		String db_pwd=mapper.boardGetPassword(vo.getNo());
+		
+		if(db_pwd.equals(vo.getPwd())) {
+			
+			res=true;
+			mapper.boardUpdate(vo);
+		}
+		
+		return res;
+	}
+	
 }

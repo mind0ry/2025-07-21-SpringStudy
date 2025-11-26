@@ -1,9 +1,11 @@
 package com.sist.mapper;
 import java.util.*;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import com.sist.vo.*;
 public interface BoardMapper {
@@ -20,4 +22,25 @@ public interface BoardMapper {
 	@Insert("INSERT INTO springBoard(no,name,subject,content,pwd) "
 			+ "VALUES(sb_no_seq.nextval,#{name},#{subject},#{content},#{pwd})")
 	public void boardInsert(BoardVO vo);
+	
+	@Update("UPDATE springBoard SET "
+			+ "hit=hit+1 "
+			+ "WHERE no=#{no}")
+	public void hitIncrement(int no);
+	
+	@Select("SELECT no,name,subject,content,hit,TO_CHAR(regdate,'YYYY-MM-DD HH24:MI:SS') as dbday "
+			+ "FROM springBoard "
+			+ "WHERE no=#{no}")
+	public BoardVO boardDetailData(int no);
+	
+	@Select("SELECT pwd FROM springBoard WHERE no=#{no}")
+	public String boardGetPassword(int no);
+	
+	@Delete("DELETE FROM springBoard WHERE no=#{no}")
+	public void boardDelete(int no);
+	
+	@Update("UPDATE springBoard SET "
+			+ "subject=#{subject},name=#{name},content=#{content} "
+			+ "WHERE no=#{no}")
+	public void boardUpdate(BoardVO vo);
 }
