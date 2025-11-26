@@ -1,7 +1,350 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Nov 2025 07:16:05 GMT</lastBuildDate><item><title><![CDATA[This Week in Spring - Spring Boot 4 edition! - November 25th, 2025]]></title><link>https://spring.io/blog/2025/11/25/this-week-in-spring-november-24th-2025</link><guid isPermaLink="true">https://spring.io/blog/2025/11/25/this-week-in-spring-november-24th-2025</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another illustrious installment of This Week in Spring! It¡¯s Thanksgiving week here in the United States. Thanksgiving is traditionally celebrated with friends and family every fourth Thursday of November, gathered around a table full of food and, usually, a giant stuffed turkey. When celebrated well, it¡¯s a time to come together and revel in gratitude for life¡¯s good fortunes. And so, in that spirit, my friends, I want to remind you ? and I¡¯m sure I can speak for the entire Spring team here, too! ? that we are so grateful for you. The community is the most amazing facet of the Spring ecosystem, and without you, there would be nothing. Thank you so very much, and Happy Thanksgiving to those who celebrate!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Nov 2025 00:40:04 GMT</lastBuildDate><item><title><![CDATA[Spring Cloud 2025.1.0 (aka Oakwood) has been released]]></title><link>https://spring.io/blog/2025/11/25/spring-cloud-2025-1-0-aka-oakwood-has-been-released</link><guid isPermaLink="true">https://spring.io/blog/2025/11/25/spring-cloud-2025-1-0-aka-oakwood-has-been-released</guid><dc:creator><![CDATA[spencergibb]]></dc:creator><pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the &lt;a href=&quot;https://cloud.spring.io&quot;&gt;Spring Cloud 2025.1.0&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2025.1.0/&quot;&gt;Maven Central&lt;/a&gt;. You can check out the 2025.1.0 &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2025.1-Release-Notes&quot;&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;notable-changes-in-the-202510-release-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notable-changes-in-the-202510-release-train&quot; aria-label=&quot;notable changes in the 202510 release train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notable Changes in the 2025.1.0 Release Train&lt;/h2&gt;
+&lt;p&gt;This is a major release, each project has been updated to version 5.0.0. This release is based on Spring Framework 7 and Spring Boot 4.&lt;/p&gt;
+&lt;p&gt;A complete list of changes for this release can found in the &lt;a href=&quot;https://github.com/orgs/spring-cloud/projects/186&quot;&gt;2025.1.0 GitHub Project&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;spring-cloud-release&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-release&quot; aria-label=&quot;spring cloud release permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Release&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;spring-cloud-stater-parent&lt;/code&gt; artifact has been removed (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/issues/437&quot;&gt;#437&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-gateway&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-gateway&quot; aria-label=&quot;spring cloud gateway permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Cloud Gateway now has null-safety annotations for all public API classes with JSpecify (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3953&quot;&gt;#3953&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Retry filter based on Spring Framework&apos;s retry functionality (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/3970&quot;&gt;#3970&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Initial support for JSpecify (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/3944&quot;&gt;#3944&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Use Google libraries for JSON processing in gRPC (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/pull/3853&quot;&gt;#3853&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Remove deprecated artifacts in favor of new ones. The new artifacts are &lt;code&gt;spring-cloud-gateway-server-web{flux|mvc}&lt;/code&gt; and &lt;code&gt;spring-cloud-gateway-proxyexchange-web{flux|mvc}&lt;/code&gt; &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3858&quot;&gt;#3858&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New API Versioning Predicate in Server WebFlux &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3864&quot;&gt;#3864&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-commons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-commons&quot; aria-label=&quot;spring cloud commons permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Cloud Commons now has null-safety annotations for all public API classes with JSpecify (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/pull/1594&quot;&gt;#1594&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add LoadBalancer API versioning support &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/pull/1582&quot;&gt;#1582&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LoadBalancer integration for Spring Interface Clients AutoConfiguration &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/pull/1491&quot;&gt;#1491&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/pull/1492&quot;&gt;#1492&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CircuitBreaker integration for Spring Interface Clients AutoConfiguration &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/issues/1538&quot;&gt;#1538&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-circuitbreaker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-circuitbreaker&quot; aria-label=&quot;spring cloud circuitbreaker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Circuitbreaker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A new module has been added with a Spring Cloud Circuitbreaker implementation using the new &lt;a href=&quot;https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-7.0-Release-Notes#resilience-features-retrytemplate-retryable-concurrencylimit&quot;&gt;resilience support in Spring Framework 7.0.0&lt;/a&gt;. (#&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/pull/256&quot;&gt;256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The module &lt;code&gt;spring-cloud-circuitbreaker-spring-retry&lt;/code&gt; has been placed in maintenance only mode and will be removed when &lt;a href=&quot;https://github.com/spring-projects/spring-retry&quot;&gt;Spring Retry&lt;/a&gt; is no longer supported.&lt;/li&gt;
+&lt;li&gt;Upgrade Resilience4j to 2.3.0&lt;/li&gt;
+&lt;li&gt;The version of Spring Cloud Circuit Breaker has moved to 5.0.x to align with the rest of the release train, skipping version 4.0.x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-config&quot; aria-label=&quot;spring cloud config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Transition to use Jackson 3 (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/pull/3131&quot;&gt;#3131&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Removed all deprecated classes and methods (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/pull/2908&quot;&gt;#2908&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-stream&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-stream&quot; aria-label=&quot;spring cloud stream permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Stream&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for caching and logging control options for KTable materialization&lt;/li&gt;
+&lt;li&gt;Support for consumer priority support in Rabbit binder properties&lt;/li&gt;
+&lt;li&gt;Migration to Jackson 3&lt;/li&gt;
+&lt;li&gt;The artifact &lt;code&gt;org.springframework.cloud:spring-cloud-stream-binder-kafka-reactive&lt;/code&gt; has been removed as Reactor Kafka has been discontinued. See &lt;a href=&quot;https://spring.io/blog/2025/05/20/reactor-kafka-discontinued&quot;&gt;this blog post&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-netflix&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-netflix&quot; aria-label=&quot;spring cloud netflix permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove RestTemplate support (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/pull/4504&quot;&gt;#4504&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-consul&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-consul&quot; aria-label=&quot;spring cloud consul permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Consul&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replaced &lt;code&gt;ewcid-api&lt;/code&gt; with a non-blocking interface client (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/issues/475&quot;&gt;#475&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Replaced 3rd party Consul HTTP Client with Interface Clients &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/pull/840&quot;&gt;#840&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-function&quot; aria-label=&quot;spring cloud function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Function&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Significant enhancements in the discovery of complex input/output types.&lt;/li&gt;
+&lt;li&gt;Support for post-processing Kotlin functions. Although the feature is mostly used in Spring Cloud Stream, the supporting implementation is in Spring Cloud Functions.&lt;/li&gt;
+&lt;li&gt;Support for preserving AWS Context in AWS Custom Runutime support of AWS Lambda&lt;/li&gt;
+&lt;li&gt;Migration to Jackson 3&lt;/li&gt;
+&lt;li&gt;Discontinue spring-cloud-function-rscoket&lt;/li&gt;
+&lt;li&gt;Discontinue spring-cloud-function-deployer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-contract&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-contract&quot; aria-label=&quot;spring cloud contract permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Contract&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Removed support for REST Assured due to &lt;a href=&quot;https://github.com/spring-projects/spring-restdocs/issues/1000&quot;&gt;support being dropped in Spring REST Docs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;stubrunner. -&gt; spring.cloud.contract.stubrunner. property migration (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/pull/2309&quot;&gt;#2309&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Removed &lt;code&gt;javax.inject&lt;/code&gt; and &lt;code&gt;javax.annotation&lt;/code&gt; support &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/issues/2206&quot;&gt;#2206&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-kubernetes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-kubernetes&quot; aria-label=&quot;spring cloud kubernetes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Leader election info contributor can now be disabled by setting &lt;code&gt;management.info.leader.enabled=false&lt;/code&gt; (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/issues/2085&quot;&gt;#2085&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Deprecated classes and methods have been removed, and numerous other improvements to public classes have been made. See the &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/issues?q=is%3Aclosed%20milestone%3A%225.0.0-M4%22&quot;&gt;milestone&lt;/a&gt; for a complete list of changes&lt;/li&gt;
+&lt;li&gt;Upgraded Kubernetes Java Client to 24.0.0&lt;/li&gt;
+&lt;li&gt;Upgraded Fabric8 Kubernetes Client to 7.4.0&lt;/li&gt;
+&lt;li&gt;The version of Spring Cloud Kuberentes has moved to 5.0.x to align with the rest of the release train, skipping version 4.0.x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;spring-cloud-openfeign&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-openfeign&quot; aria-label=&quot;spring cloud openfeign permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Openfeign&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove deprecations. (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/pull/1268&quot;&gt;#1268&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following modules were updated as part of 2025.1.0:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Issues&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Starter Build&lt;/td&gt;
+&lt;td&gt;2025.1.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-starter-build/releases/tag/v2025.1.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Config&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Build&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-build/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Consul&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Function&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Vault&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-vault/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Task&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Zookeeper&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-zookeeper/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spring Cloud Bus&lt;/td&gt;
+&lt;td&gt;5.0.0&lt;/td&gt;
+&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bus/releases/tag/v5.0.0&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://twitter.com/SpringCloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependencyManagement&gt;
+    &amp;#x3C;dependencies&gt;
+        &amp;#x3C;dependency&gt;
+            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
+            &amp;#x3C;version&gt;2025.1.0&amp;#x3C;/version&gt;
+            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
+            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
+        &amp;#x3C;/dependency&gt;
+    &amp;#x3C;/dependencies&gt;
+&amp;#x3C;/dependencyManagement&gt;
+&amp;#x3C;dependencies&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    &amp;#x3C;dependency&gt;
+        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
+        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;/dependency&gt;
+    ...
+&amp;#x3C;/dependencies&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;plugins {
+  id &apos;java&apos;
+  id &apos;org.springframework.boot&apos; version &apos;4.0.0&apos;
+  id &apos;io.spring.dependency-management&apos; version &apos;1.1.7&apos;
+}
+
+group = &apos;com.example&apos;
+version = &apos;0.0.1-SNAPSHOT&apos;
+description = &apos;Demo project for Spring Boot&apos;
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  set(&apos;springCloudVersion&apos;, &quot;2025.1.0&quot;)
+}
+
+dependencies {
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
+  implementation &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
+  //...
+}
+
+dependencyManagement {
+  imports {
+    mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Spring Data Ahead of Time Repositories - Part 2]]></title><link>https://spring.io/blog/2025/11/25/spring-data-ahead-of-time-repositories-part-2</link><guid isPermaLink="true">https://spring.io/blog/2025/11/25/spring-data-ahead-of-time-repositories-part-2</guid><dc:creator><![CDATA[christophstrobl]]></dc:creator><pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Concluding the &lt;a href=&quot;https://spring.io/blog/2025/09/02/road_to_ga_introduction&quot;&gt;Road to GA&lt;/a&gt; blog post series, let&apos;s explore benefits of Spring Data AOT Repositories.&lt;/p&gt;
+&lt;p&gt;Back in May 2025, we first introduced &lt;a href=&quot;https://spring.io/blog/2025/05/22/spring-data-ahead-of-time-repositories&quot;&gt;Ahead of Time (AOT) repositories&lt;/a&gt; as a preview feature for &lt;em&gt;JPA&lt;/em&gt; and &lt;em&gt;MongoDB&lt;/em&gt; with the &lt;a href=&quot;https://spring.io/blog/2025/05/16/spring-data-2025-1-0-M3-released&quot;&gt;3rd Milestone of the next Spring Data generation&lt;/a&gt;.
+This feature, in short, uses AOT processing to implement your repository query methods using actual source code by relying on the store-specific nature of the repository.&lt;/p&gt;
+&lt;p&gt;Since then, we&apos;ve incorporated feedback, ironed out rough edges, and onboarded two more modules: Apache Cassandra and JDBC.
+This means, with the &lt;a href=&quot;https://spring.io/blog/2025/11/14/spring-data-2025-1-goes-ga&quot;&gt;&lt;code&gt;2025.1.0&lt;/code&gt; release&lt;/a&gt;, you are be able to use AOT generated repositories with four Spring Data modules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Data for &lt;a href=&quot;https://spring.io/projects/spring-data-cassandra&quot;&gt;Apache Cassandra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data &lt;a href=&quot;https://spring.io/projects/spring-data-jdbc&quot;&gt;JDBC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data &lt;a href=&quot;https://spring.io/projects/spring-data-jpa&quot;&gt;JPA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data &lt;a href=&quot;https://spring.io/projects/spring-data-mongodb&quot;&gt;MongoDB&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;what-you-get&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-you-get&quot; aria-label=&quot;what you get permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What you get&lt;/h1&gt;
+&lt;p&gt;By leveraging the general &lt;a href=&quot;https://docs.spring.io/spring-framework/reference/7.0/core/aot.html&quot;&gt;Spring AOT&lt;/a&gt; infrastructure, we have a lot of insight into your application&apos;s configuration allowing for better integration than it would be possible with an annotation processor. A pre-initialized application context configuration for AOT processing gives us access to all registered beans, their types and properties, capturing your opinions and configuration.
+As you can imagine, this insight is crucial when you want to work with integrations like Data JDBC: While targeting standard SQL, the JDBC module needs to be aware of potential specifics of the target database that often come with their very own dialect deviations. Having access to registered beans, like the &lt;code&gt;JdbcDialect&lt;/code&gt;, makes it possible to generate the right statements.&lt;/p&gt;
+&lt;p&gt;So when we look at the generated code, it shares common principles with the individual modules while sticking as close as possible to the underlying technology.&lt;/p&gt;
+&lt;p&gt;Just as each Spring Data module is specific to its target technology, so is the generated code.
+A simple query method like &lt;code&gt;findByLastnameStartingWith&lt;/code&gt; in &lt;em&gt;JDBC&lt;/em&gt; looks way different from the one generated for &lt;em&gt;JPA&lt;/em&gt; or &lt;em&gt;Apache Cassandra&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Spring Data JDBC&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public List&amp;#x3C;User&gt; findByLastnameStartingWith(String lastname) {
+  Criteria criteria = Criteria.where(&quot;lastname&quot;).like(escape(lastname) + &quot;%&quot;);
+  StatementFactory.SelectionBuilder builder = getStatementFactory().select(User.class).filter(criteria);
+
+  RowMapper rowMapper = getRowMapperFactory().create(User.class);
+  List result = (List) builder.executeWith((sql, paramSource) -&gt; getJdbcOperations().query(sql, paramSource, new RowMapperResultSetExtractor&amp;#x3C;&gt;(rowMapper)));
+  return (List&amp;#x3C;User&gt;) convertMany(result, User.class);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Spring Data JPA&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public List&amp;#x3C;User&gt; findByLastnameStartingWith(String lastname) {
+  String queryString = &quot;SELECT u FROM example.springdata.aot.User u WHERE u.lastname LIKE :lastname ESCAPE &apos;\\&apos;&quot;;
+  Query query = entityManager.createQuery(queryString);
+  query.setParameter(&quot;lastname&quot;, &quot;%s%%&quot;.formatted(lastname));
+
+  return (List&amp;#x3C;User&gt;) query.getResultList();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Spring Data for Apache Cassandra&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public List&amp;#x3C;User&gt; findByLastnameStartingWith(String lastname) {
+  Query query = Query.query(Criteria.where(&quot;lastname&quot;).like(lastname + &quot;%&quot;));
+
+  ExecutableSelectOperation.TerminatingSelect&amp;#x3C;User&gt; select = operations.query(User.class).matching(query);
+  return select.all();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;AOT Repositories are generated and mounted by default when building with general Spring AOT support.
+You may opt out of generating repository code via &lt;code&gt;spring.aot.repositories.enabled=false&lt;/code&gt; or select single modules like &lt;code&gt;spring.aot.jdbc.repositories.enabled=false&lt;/code&gt; if you wish.&lt;/p&gt;
+&lt;p&gt;To actually use them, your application must be started in AOT mode (either by using the &lt;code&gt;spring.aot.enabled&lt;/code&gt; property or as GraalVM Native Image).&lt;/p&gt;
+&lt;p&gt;But, let us also have a look at some of the advantages for development and debugging.&lt;/p&gt;
+&lt;h1 id=&quot;debuggability-and-metadata&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#debuggability-and-metadata&quot; aria-label=&quot;debuggability and metadata permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Debuggability and Metadata&lt;/h1&gt;
+&lt;p&gt;AOT generated repositories not only explain in code how your query is being executed, but you can also set breakpoints in your IDE to debug statements when needed.&lt;/p&gt;
+&lt;p&gt;Following the line of thought of knowing what the queries look like during AOT processing, we&apos;ve introduced a JSON metadata representation for your Spring Data interfaces.
+Like for the above repository, let&apos;s call it &lt;code&gt;UserRepository&lt;/code&gt; for now, Spring Data generates a &lt;code&gt;UserRepository.json&lt;/code&gt; resource that resides in the same package as your repository interface.
+That particular file contains information about query methods, which implementation they are targeting and what query they will run.
+It can be used for documentation purposes, but can also be read by your favorite IDE to display additional information while you&apos;re still developing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Spring Data JDBC&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+ &quot;name&quot;: &quot;example.springdata.UserRepository&quot;,
+ &quot;module&quot;: &quot;JDBC&quot;,
+ &quot;type&quot;: &quot;IMPERATIVE&quot;,
+ &quot;methods&quot;: [
+ {
+   &quot;name&quot;: &quot;findByLastnameStartingWith&quot;,
+   &quot;signature&quot;: &quot;public abstract List&amp;#x3C;User&gt; UserRepository.findByLastnameStartingWith(String)&quot;,
+   &quot;query&quot;: {
+     &quot;query&quot;: &quot;SELECT &apos;USER&apos;.&apos;ID&apos; AS &apos;ID&apos;, &apos;USER&apos;.&apos;LAST_NAME&apos; AS &apos;LAST_NAME&apos;, &apos;USER&apos;.&apos;FIRST_NAME&apos; AS &apos;FIRST_NAME&apos; FROM &apos;USER&apos; WHERE &apos;USER&apos;.&apos;LASTNAME&apos; LIKE :name&quot;
+   }
+ }
+ //...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Spring Data JPA&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+ // ...
+ &quot;query&quot;: {
+   &quot;query&quot;: &quot;SELECT u FROM example.springdata.User u WHERE u.lastname LIKE ?1 ESCAPE &apos;\\&apos;&quot;
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Spring Data for Apache Cassandra&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+ // ...
+ &quot;query&quot;: {
+   &quot;query&quot;: &quot;SELECT * FROM users WHERE last_name LIKE ?&quot;
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can optionally disable metadata generation by setting &lt;code&gt;spring.aot.repositories.metadata.enabled=false&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;aot-cache-and-project-leyden&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aot-cache-and-project-leyden&quot; aria-label=&quot;aot cache and project leyden permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AOT Cache and Project Leyden&lt;/h1&gt;
+&lt;p&gt;Generating repository code upfront not only has debuggability benefits but also goes very well with recent developments in the latest Java releases.
+Unlike runtime-generated pieces that make things work, pre-generated repositories can be seen and analyzed by the JVM during an &lt;a href=&quot;https://openjdk.org/jeps/483&quot;&gt;AOT Cache&lt;/a&gt; training run.
+This helps you reduce startup times by serving repository implementations already fully loaded and linked from the Java shared objects file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[info][class,load] example.springdata.aot.UserRepositoryImpl__AotRepository source: shared objects file
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A well known feature of especially the Spring Data NoSQL implementations is their object mapping capabilities.
+Not so well known is the fact that at runtime, Spring Data will try to optimize creating new instances and accessing properties of your domain objects by generating bytecode that uses &lt;code&gt;MethodHandle&lt;/code&gt; to improve load/save performance.&lt;/p&gt;
+&lt;p&gt;Collecting information about your domain model paved the way for generated bytecode inclusion that is used for property accessors and entity instantiators at build time.
+Having generated bytecode already available removes the need to use runtime optimizations. Additionally, captured entity instantiators and property accessors are packaged into the bundled JAR and therefore available through the class loader directly serving things even more efficiently.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[info][class,load] example.springdata.User__Instantiator_cu2hga source: shared objects file
+[info][class,load] example.springdata.User__Accessor_cu2hga source: shared objects file
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;any-downsides&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#any-downsides&quot; aria-label=&quot;any downsides permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Any downsides?&lt;/h1&gt;
+&lt;p&gt;Obviously, computation time does not simply disappear, it shifts to somewhere else.
+In this case, to the build phase. So yes, analyzing the application and preparing the data, as well as doing JVM training runs takes time and potentially requires changes to your build and deployment pipeline.
+You also trade certain dynamic aspects of the framework for less memory consumption and faster startup times.
+Parts of your configuration need to be frozen when opting in for AOT. Remember the &lt;code&gt;JdbcDialect&lt;/code&gt; from earlier?
+That&apos;s exactly one of those frozen spots since you cannot generate SQL optimized for one database and switch to the other as if nothing has changed.&lt;/p&gt;
+&lt;p&gt;Also Ahead of Time repositories do currently only support imperative repository interfaces. Reactive ones will not trigger any code generation.&lt;/p&gt;
+&lt;p&gt;If you&apos;re curious, you may just build and run your application with &lt;code&gt;spring.aot.enabled&lt;/code&gt; or head over to our &lt;a href=&quot;https://github.com/spring-projects/spring-data-examples&quot;&gt;Spring Data Examples&lt;/a&gt; where we already prepared demo applications for you to try.&lt;/p&gt;
+&lt;p&gt;In any case, you can always fall back to starting your application without the &lt;code&gt;spring.aot.enabled&lt;/code&gt; flag, which will disable all Ahead of Time enhancements.
+This enables you to build and test the application in AOT mode while having a back off strategy built in.&lt;/p&gt;
+&lt;p&gt;We&apos;re excited to see how you leverage Ahead of Time features.&lt;br&gt;
+And, as always, your feedback matters!
+So, we&apos;re looking forward to hearing from you and your experiences on ways to improve.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - Spring Boot 4 edition! - November 25th, 2025]]></title><link>https://spring.io/blog/2025/11/25/this-week-in-spring-november-24th-2025</link><guid isPermaLink="true">https://spring.io/blog/2025/11/25/this-week-in-spring-november-24th-2025</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another illustrious installment of This Week in Spring! It¡¯s Thanksgiving week here in the United States. Thanksgiving is traditionally celebrated with friends and family every fourth Thursday of November, gathered around a table full of food and, usually, a giant stuffed turkey. When celebrated well, it¡¯s a time to come together and revel in gratitude for life¡¯s good fortunes. And so, in that spirit, my friends, I want to remind you ? and I¡¯m sure I can speak for the entire Spring team here, too! ? that we are so grateful for you. The community is the most amazing facet of the Spring ecosystem, and without you, there would be nothing. Thank you so very much, and Happy Thanksgiving to those who celebrate!&lt;/p&gt;
 &lt;p&gt;And now, without further ado, let&apos;s dive into yet another,  extra stuffed, extra jam-packed installlment of &lt;em&gt;This Week in Spring&lt;/em&gt;!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You&apos;ve probably heard the big news, but just in case: &lt;a href=&quot;https://spring.io/blog/2025/11/20/spring-boot-4-0-0-available-now&quot;&gt;Spring Boot 4 is here!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;and, naturally, the amazing folks over at Jetbrains have a &lt;a href=&quot;https://blog.jetbrains.com/idea/2025/11/spring-boot-4/&quot;&gt;nice blog on Spring Boot 4, too!&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/11/20/spring-boot-3-5-8-available-now&quot;&gt;Spring Boot 3.5.8 is also available now, too&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;and so &lt;a href=&quot;https://spring.io/blog/2025/11/20/spring-boot-3-4-12-available-now&quot;&gt;is Spring Boot 3.4.12&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/11/20/spring-framework-7-0-1-available-now&quot;&gt;Spring Framework 7.0.1 is available now&lt;/a&gt;&lt;/li&gt;
@@ -26,47 +369,347 @@
 &lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/11/24/towards-spring-tools-5-part1&quot;&gt;Towards Spring Tools 4 - ready for Spring Boot 4 and Spring Framework 7&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2025/11/21/spring-modulith-2-0-ga-1-4-5-and-1-3-11-released&quot;&gt;Spring Modulith 2.0 GA, 1.4.5, and 1.3.11 released&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;in last week&apos;s installment of  &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talk to the legendary Spring Framework committer and Kotlin legend Sebastien Deleuze about all that shines &lt;a href=&quot;https://spring.io/blog/2025/11/20/a-bootiful-podcast-sebastien-deleuze&quot;&gt;in Spring Framework 7 and Spring Boot 4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Towards Spring Tools 5 - Ready for Boot 4 and Framework 7]]></title><link>https://spring.io/blog/2025/11/24/towards-spring-tools-5-part1</link><guid isPermaLink="true">https://spring.io/blog/2025/11/24/towards-spring-tools-5-part1</guid><dc:creator><![CDATA[martinlippert]]></dc:creator><pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the light of the new major releases of the Spring Framework and Spring Boot, the next major release of the Spring Tools is also around the corner. The GA is scheduled for December 10th and RCs will start to show up from now onwards.&lt;/p&gt;
-&lt;h2 id=&quot;support-for-what-is-new-in-spring&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#support-for-what-is-new-in-spring&quot; aria-label=&quot;support for what is new in spring permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Support for what is new in Spring&lt;/h2&gt;
-&lt;p&gt;Spring Tools 5 contains support for various new features of Spring Framework 7 and Spring Boot 4, ranging from extensive support for the new API versioning feature, support for functional bean definitions via the new bean registrar API, semi-automatic configuration for JSpecify annotation based null analysis and support for AOT repositories in Spring Data. So let¡¯s take a look into the details here.&lt;/p&gt;
-&lt;h2 id=&quot;support-for-api-versioning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#support-for-api-versioning&quot; aria-label=&quot;support for api versioning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Support for API versioning&lt;/h2&gt;
-&lt;p&gt;Spring Framework 7 introduced support for &lt;a href=&quot;https://spring.io/blog/2025/09/16/api-versioning-in-spring&quot;&gt;API versioning&lt;/a&gt; when building server-side web endpoints as well as accessing web resources on the client side. The Spring Tools 5 introduces support for this via:&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Beyond JSON: Converting Spring AI Tool Response Formats to TOON, XML, CSV, YAML, ...]]></title><link>https://spring.io/blog/2025/11/25/spring-ai-tool-response-formats</link><guid isPermaLink="true">https://spring.io/blog/2025/11/25/spring-ai-tool-response-formats</guid><dc:creator><![CDATA[tzolov]]></dc:creator><pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;img style=&quot;display: block; margin: 5px auto; padding: 10px;&quot; src=&quot;https://github.com/spring-io/spring-io-static/blob/main/blog/tzolov/20251124/spring-ai-tool-response-formats.png?raw=true&quot; width=&quot;450&quot; align=&quot;left&quot;&gt;
+&lt;p&gt;JSON is the go-to format for LLM tool responses, but recent discussions around alternative formats like &lt;a href=&quot;https://github.com/toon-format/toon&quot;&gt;TOON&lt;/a&gt; (Token-Oriented Object Notation) claim potential benefits in token efficiency and performance.
+While the debate continues?with &lt;a href=&quot;https://www.improvingagents.com/blog/toon-benchmarks&quot;&gt;critical analyses&lt;/a&gt; pointing to &lt;a href=&quot;https://www.towardsdeeplearning.com/toon-benchmarks-a-critical-analysis-of-different-results-d2a74563adca&quot;&gt;context-dependent results&lt;/a&gt;?the question is: how to experiment with these formats in your own Spring AI applications?&lt;/p&gt;
+&lt;p&gt;This article demonstrates &lt;strong&gt;how&lt;/strong&gt; to configure Spring AI to convert tool responses between &lt;code&gt;JSON&lt;/code&gt;, &lt;code&gt;TOON&lt;/code&gt;, &lt;code&gt;XML&lt;/code&gt;, &lt;code&gt;CSV&lt;/code&gt;, and &lt;code&gt;YAML&lt;/code&gt;, enabling you to decide what works best for your specific use case.&lt;/p&gt;
+&lt;h2 id=&quot;spring-ai-tool-calling-a-quick-overview&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-ai-tool-calling-a-quick-overview&quot; aria-label=&quot;spring ai tool calling a quick overview permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring AI Tool Calling: A Quick Overview&lt;/h2&gt;
+&lt;p&gt;Let&apos;s briefly review how &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/tools.html#_overview&quot;&gt;Spring AI Tool Calling&lt;/a&gt; works:&lt;/p&gt;
+&lt;img style=&quot;display: block; margin: 5px auto; padding: 5px;&quot; src=&quot;https://docs.spring.io/spring-ai/reference/_images/tools/tool-calling-01.jpg&quot; width=&quot;500&quot; align=&quot;right&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;Tool definitions (name, description, parameters schema) are added to the chat request.&lt;/li&gt;
+&lt;li&gt;When the model decides to call a tool, it sends the tool name and input parameters.&lt;/li&gt;
+&lt;li&gt;Spring AI identifies and executes the tool with the provided parameters.&lt;/li&gt;
+&lt;li&gt;Spring AI handles the tool result.&lt;/li&gt;
+&lt;li&gt;Spring AI sends the tool result back to the model as part of the conversation history.&lt;/li&gt;
+&lt;li&gt;The model generates the final response using the tool result as additional context.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/spring-projects/spring-ai/blob/main/spring-ai-model/src/main/java/org/springframework/ai/tool/ToolCallback.java&quot;&gt;ToolCallback&lt;/a&gt; interface is at the heart of this process. Each tool is wrapped in a &lt;code&gt;ToolCallback&lt;/code&gt; that handles the serialization and execution logic.&lt;/p&gt;
+&lt;p&gt;We can intercept and convert the response format at two key points:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Showing a codelens on top of controllers to give you a quick overview and summary of the web configuration (whether it comes from java web config or from boot properties)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tool Result level&lt;/strong&gt;: After the tool executes but before JSON serialization (Approach 1)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Response level&lt;/strong&gt;: After JSON serialization, transforming JSON to another format (Approach 2)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://static.spring.io/blog/mlippert/20251124/01-web-config-codelens.png&quot; alt=&quot;Web config codelens with summary information above a controller class&quot; width=&quot;680&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Both approaches have their merits, and the choice depends on your specific requirements. Let&apos;s explore each in detail.&lt;/p&gt;
+&lt;h2 id=&quot;approach-1-custom-toolcallresultconverter-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#approach-1-custom-toolcallresultconverter-configuration&quot; aria-label=&quot;approach 1 custom toolcallresultconverter configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Approach 1: Custom ToolCallResultConverter Configuration&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: Applicable only for local tool implementations such as &lt;code&gt;@Tool&lt;/code&gt;, &lt;code&gt;FunctionToolCallback&lt;/code&gt; and &lt;code&gt;MethodToolCallback&lt;/code&gt;. Currently it is not supported by the MCP Tools.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/tools.html#_result_conversion&quot;&gt;ToolCallResultConverter&lt;/a&gt; interface provides fine-grained control over individual tool formats.
+The DefaultToolCallResultConverter serializes the result to JSON, but you can customize the serialization process by providing your own ToolCallResultConverter implementation.
+For example, a custom ToonToolCallResultConverter can look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public static class ToonToolCallResultConverter implements ToolCallResultConverter {
+
+    private ToolCallResultConverter delegate = new DefaultToolCallResultConverter();
+    
+    @Override
+    public String convert(@Nullable Object result, @Nullable Type returnType) {
+        // First convert to JSON using the default converter
+        String json = this.delegate.convert(result, returnType);
+
+        // Then convert JSON to TOON
+        return JToon.encodeJson(json);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It uses the default JSON converter, then converts to TOON using libraries such as &lt;a href=&quot;https://github.com/toon-format/toon-java&quot;&gt;JToon&lt;/a&gt; or &lt;a href=&quot;https://github.com/ricken07/toon4j&quot;&gt;toon4j&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Register with @Tool:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Tool(description = &quot;Get random titanic passengers&quot;, 
+      resultConverter = ToonToolCallResultConverter.class) // (1)
+public List&amp;#x3C;String&gt; randomTitanicToon(
+    @ToolParam(description = &quot;Number of records to return&quot;) int count) {
+    return TitanicData.getRandomTitanicPassengers(count);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Uses the &lt;code&gt;resultConverter&lt;/code&gt; attribute to set the custom ToonToolCallResultConverter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Execution flow:&lt;/strong&gt; Tool executes ¡æ Default converter creates JSON ¡æ TOON converter transforms JSON ¡æ LLM receives TOON response.&lt;/p&gt;
+&lt;p&gt;You can also register the ToolCallResultConverter with the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/tools.html#_programmatic_specification_functiontoolcallback&quot;&gt;FunctionToolCallback&lt;/a&gt; and &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/tools.html#_programmatic_specification_methodtoolcallback&quot;&gt;MethodToolCallback&lt;/a&gt; builders programmatically.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Limitations:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The version attribute shows up as part of request mapping symbols (to help you get an overview of the mappings for different versions as well as allow you to navigate to a specific mapping easily)&lt;/li&gt;
-&lt;li&gt;Validation to check if a versioning strategy is configured (when detecting the version attribute on mappings)&lt;/li&gt;
+&lt;li&gt;? &lt;strong&gt;MCP incompatible&lt;/strong&gt;: Doesn&apos;t work with &lt;code&gt;@McpTool&lt;/code&gt; (Model Context Protocol tools)&lt;/li&gt;
+&lt;li&gt;? &lt;strong&gt;Repetitive&lt;/strong&gt;: Must implement and register for each tool needing conversion&lt;/li&gt;
+&lt;li&gt;? &lt;strong&gt;Maintenance overhead&lt;/strong&gt;: Changes require updating multiple tool definitions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://static.spring.io/blog/mlippert/20251124/02-api-versioning-not-configured.png&quot; alt=&quot;Validation showing an error if the version attribute is used without a versioning strategy being configured&quot; width=&quot;680&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/main/src/main/java/com/example/trfd/Application2.java&quot;&gt;Application2.java&lt;/a&gt; provides an implementation example.&lt;/p&gt;
+&lt;h2 id=&quot;approach-2-global-tool-response-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#approach-2-global-tool-response-configuration&quot; aria-label=&quot;approach 2 global tool response configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Approach 2: Global Tool Response Configuration&lt;/h2&gt;
+&lt;p&gt;Apply format conversion globally using a custom &lt;code&gt;ToolCallbackProvider&lt;/code&gt; that wraps existing providers with delegator pattern:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Original ToolCallbackProvider
+    ¡é wrapped by
+DelegatorToolCallbackProvider
+    ¡é creates wrapped callbacks
+DelegatorToolCallback (for each tool)
+    ¡é intercepts call() method
+    ¡é converts response
+JSON ¡æ Target Format (TOON/XML/CSV/YAML)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;component-1-delegatortoolcallbackprovider&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#component-1-delegatortoolcallbackprovider&quot; aria-label=&quot;component 1 delegatortoolcallbackprovider permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Component 1: &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/main/src/main/java/com/example/trfd/DelegatorToolCallbackProvider.java&quot;&gt;DelegatorToolCallbackProvider&lt;/a&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public class DelegatorToolCallbackProvider implements ToolCallbackProvider {
+    private final ToolCallbackProvider delegate;
+    private final ResponseConverter.Format format;
+    
+    public DelegatorToolCallbackProvider(ToolCallbackProvider delegate, 
+                                         ResponseConverter.Format format) {
+        this.delegate = delegate;
+        this.format = format;
+    }
+    
+    @Override
+    public ToolCallback[] getToolCallbacks() {
+        return Stream.of(this.delegate.getToolCallbacks())
+            .map(callback -&gt; new DelegatorToolCallback(callback, this.format))
+            .toArray(ToolCallback[]::new);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This provider wraps an existing &lt;code&gt;ToolCallbackProvider&lt;/code&gt; and creates a &lt;code&gt;DelegatorToolCallback&lt;/code&gt; wrapper for each tool callback. The format parameter specifies which format to convert to.&lt;/p&gt;
+&lt;h4 id=&quot;component-2-delegatortoolcallback&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#component-2-delegatortoolcallback&quot; aria-label=&quot;component 2 delegatortoolcallback permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Component 2: &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/370bb149c4fcfa83c4f9d117879bbdf18c0d2e71/src/main/java/com/example/trfd/DelegatorToolCallbackProvider.java#L47&quot;&gt;DelegatorToolCallback&lt;/a&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public static class DelegatorToolCallback implements ToolCallback {
+    private final ToolCallback delegate;
+    private final ResponseConverter.Format format;
+    
+    public DelegatorToolCallback(ToolCallback delegate, 
+                                ResponseConverter.Format format) {
+        this.delegate = delegate;
+        this.format = format;
+    }
+    
+    @Override
+    public ToolDefinition getToolDefinition() {
+        return this.delegate.getToolDefinition();
+    }
+    
+    @Override
+    public String call(String toolInput) {
+        // Call the original tool to get JSON response
+        String jsonResponse = this.delegate.call(toolInput);
+        // Convert to target format
+        return ResponseConverter.convert(jsonResponse, this.format);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The callback wrapper intercepts the &lt;code&gt;call()&lt;/code&gt; method, allowing the original tool to execute normally, then converts its JSON response to the desired format.&lt;/p&gt;
+&lt;h4 id=&quot;component-3-responseconverter-utility&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#component-3-responseconverter-utility&quot; aria-label=&quot;component 3 responseconverter utility permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Component 3: &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/main/src/main/java/com/example/trfd/ResponseConverter.java&quot;&gt;ResponseConverter&lt;/a&gt; Utility&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;public class ResponseConverter {
+    
+    public enum Format {
+        TOON, YAML, XML, CSV, JSON
+    }
+    
+    public static String convert(String json, Format format) {
+        switch (format) {
+            case TOON: return jsonToToon(json);
+            case YAML: return jsonToYaml(toJsonNode(json));
+            case XML: return jsonToXml(toJsonNode(json));
+            case CSV: return jsonToCsv(toJsonNode(json));
+            case JSON: return json;
+        }
+        throw new IllegalStateException(&quot;Unsupported format: &quot; + format);
+    }
+    
+    private static String jsonToToon(String jsonString) {...}
+    private static String jsonToYaml(JsonNode jsonNode) {...}    
+    private static String jsonToXml(JsonNode jsonNode) {...}
+    private static String jsonToCsv(JsonNode jsonNode) {...}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/main/src/main/java/com/example/trfd/ResponseConverter.java&quot;&gt;ResponseConverter&lt;/a&gt; provides conversion methods for each supported format, handling the specific requirements of each (like wrapping arrays for XML or building dynamic schemas for CSV).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Usage example:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@SpringBootApplication
+public class Application {
+    
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+    
+    @Bean
+    CommandLineRunner commandLineRunner(ChatClient.Builder chatClientBuilder,
+                                       ToolCallbackProvider toolCallbackProvider) {
+        
+        // Wrap the provider with format conversion
+        var provider = new DelegatorToolCallbackProvider(
+            toolCallbackProvider, 
+            ResponseConverter.Format.TOON
+        );
+        
+        // Configure ChatClient with the wrapped provider
+        var chatClient = chatClientBuilder
+            .defaultToolCallbacks(provider)
+            .build();
+        
+        return args -&gt; {
+            var response = chatClient
+                .prompt(&quot;Please show me 10 Titanic passengers?&quot;)
+                .call()
+                .chatResponse();
+            
+            System.out.println(String.format(&quot;&quot;&quot;
+                RESPONSE: %s
+                USAGE: %s
+                &quot;&quot;&quot;, 
+                response.getResult().getOutput().getText(), 
+                response.getMetadata().getUsage()));
+        };
+    }
+    
+    @Bean
+    MethodToolCallbackProvider methodToolCallbackProvider() {
+        return MethodToolCallbackProvider.builder()
+            .toolObjects(new MyTools())
+            .build();
+    }
+    
+    static class MyTools {
+        @Tool(description = &quot;Get titanic passengers&quot;)
+        public List&amp;#x3C;String&gt; randomTitanicToon(
+            @ToolParam(description = &quot;Number of records to return&quot;) int count) {
+            return TitanicData.getTitanicPassengersInRange(30, count);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Execution flow:&lt;/strong&gt; User prompt ¡æ LLM calls tool ¡æ Wrapper intercepts ¡æ Tool executes ¡æ JSON created ¡æ Format converter transforms ¡æ LLM receives converted response.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/blob/main/src/main/java/com/example/trfd/Application.java&quot;&gt;Application&lt;/a&gt; example leverages the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/advisors-recursive.html#_toolcalladvisor&quot;&gt;ToolCallAdvisor&lt;/a&gt; (e.g. moving the tool execution as part of the Advisor chain) and a custom logging advisor &lt;code&gt;MyLogAdvisor&lt;/code&gt; that helps to see the actual tool responses in different formats.
+This advisor will print out the tool responses, allowing you to see the target format output.&lt;/p&gt;
+&lt;h3 id=&quot;format-conversion-details&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#format-conversion-details&quot; aria-label=&quot;format conversion details permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Format Conversion Details&lt;/h3&gt;
+&lt;p&gt;Let&apos;s examine each supported format and see what the output looks like.&lt;/p&gt;
+&lt;div style=&quot;font-size: 0.8em;&quot;&gt;
+&lt;h4 id=&quot;json-default&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#json-default&quot; aria-label=&quot;json default permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JSON (default)&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;[{&quot;PassengerId&quot;:&quot;31&quot;,&quot;Survived&quot;:&quot;0&quot;,&quot;Pclass&quot;:&quot;1&quot;,&quot;Name&quot;:&quot;Uruchurtu, Don. Manuel E&quot;,&quot;Sex&quot;:&quot;male&quot;,&quot;Age&quot;:40,&quot;SibSp&quot;:&quot;0&quot;,&quot;Parch&quot;:&quot;0&quot;,&quot;Ticket&quot;:&quot;PC 17601&quot;,&quot;Fare&quot;:27.7208,&quot;Cabin&quot;:null,&quot;Embarked&quot;:&quot;C&quot;},
+{&quot;PassengerId&quot;:&quot;32&quot;,&quot;Survived&quot;:&quot;1&quot;,&quot;Pclass&quot;:&quot;1&quot;,&quot;Name&quot;:&quot;Spencer, Mrs. William Augustus (Marie Eugenie)&quot;,&quot;Sex&quot;:&quot;female&quot;,&quot;Age&quot;:null,&quot;SibSp&quot;:&quot;1&quot;,&quot;Parch&quot;:&quot;0&quot;,&quot;Ticket&quot;:&quot;PC 17569&quot;,&quot;Fare&quot;:146.5208,&quot;Cabin&quot;:&quot;B78&quot;,&quot;Embarked&quot;:&quot;C&quot;},
+{&quot;PassengerId&quot;:&quot;33&quot;,&quot;Survived&quot;:&quot;1&quot;,&quot;Pclass&quot;:&quot;3&quot;,&quot;Name&quot;:&quot;Glynn, Miss. Mary Agatha&quot;,&quot;Sex&quot;:&quot;female&quot;,&quot;Age&quot;:null,&quot;SibSp&quot;:&quot;0&quot;,&quot;Parch&quot;:&quot;0&quot;,&quot;Ticket&quot;:&quot;335677&quot;,&quot;Fare&quot;:7.75,&quot;Cabin&quot;:null,&quot;Embarked&quot;:&quot;Q&quot;},
+{&quot;PassengerId&quot;:&quot;34&quot;,&quot;Survived&quot;:&quot;0&quot;,&quot;Pclass&quot;:&quot;2&quot;,&quot;Name&quot;:&quot;Wheadon, Mr. Edward H&quot;,&quot;Sex&quot;:&quot;male&quot;,&quot;Age&quot;:66,&quot;SibSp&quot;:&quot;0&quot;,&quot;Parch&quot;:&quot;0&quot;,&quot;Ticket&quot;:&quot;C.A. 24579&quot;,&quot;Fare&quot;:10.5,&quot;Cabin&quot;:null,&quot;Embarked&quot;:&quot;S&quot;},
+{&quot;PassengerId&quot;:&quot;35&quot;,&quot;Survived&quot;:&quot;0&quot;,&quot;Pclass&quot;:&quot;1&quot;,&quot;Name&quot;:&quot;Meyer, Mr. Edgar Joseph&quot;,&quot;Sex&quot;:&quot;male&quot;,&quot;Age&quot;:28,&quot;SibSp&quot;:&quot;1&quot;,&quot;Parch&quot;:&quot;0&quot;,&quot;Ticket&quot;:&quot;PC 17604&quot;,&quot;Fare&quot;:82.1708,&quot;Cabin&quot;:null,&quot;Embarked&quot;:&quot;C&quot;}]  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;toon&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#toon&quot; aria-label=&quot;toon permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;TOON&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-toon&quot;&gt;[5]{PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked}:
+  &quot;31&quot;,&quot;0&quot;,&quot;1&quot;,&quot;Uruchurtu, Don. Manuel E&quot;,male,40,&quot;0&quot;,&quot;0&quot;,PC 17601,27.7208,null,C
+  &quot;32&quot;,&quot;1&quot;,&quot;1&quot;,&quot;Spencer, Mrs. William Augustus (Marie Eugenie)&quot;,female,null,&quot;1&quot;,&quot;0&quot;,PC 17569,146.5208,B78,C
+  &quot;33&quot;,&quot;1&quot;,&quot;3&quot;,&quot;Glynn, Miss. Mary Agatha&quot;,female,null,&quot;0&quot;,&quot;0&quot;,&quot;335677&quot;,7.75,null,Q
+  &quot;34&quot;,&quot;0&quot;,&quot;2&quot;,&quot;Wheadon, Mr. Edward H&quot;,male,66,&quot;0&quot;,&quot;0&quot;,C.A. 24579,10.5,null,S
+  &quot;35&quot;,&quot;0&quot;,&quot;1&quot;,&quot;Meyer, Mr. Edgar Joseph&quot;,male,28,&quot;1&quot;,&quot;0&quot;,PC 17604,82.1708,null,C
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;xml&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#xml&quot; aria-label=&quot;xml permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;XML&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;
+&amp;#x3C;ObjectNode&gt;
+&amp;#x3C;root&gt;&amp;#x3C;PassengerId&gt;31&amp;#x3C;/PassengerId&gt;&amp;#x3C;Survived&gt;0&amp;#x3C;/Survived&gt;&amp;#x3C;Pclass&gt;1&amp;#x3C;/Pclass&gt;&amp;#x3C;Name&gt;Uruchurtu, Don. Manuel E&amp;#x3C;/Name&gt;&amp;#x3C;Sex&gt;male&amp;#x3C;/Sex&gt;&amp;#x3C;Age&gt;40&amp;#x3C;/Age&gt;&amp;#x3C;SibSp&gt;0&amp;#x3C;/SibSp&gt;&amp;#x3C;Parch&gt;0&amp;#x3C;/Parch&gt;&amp;#x3C;Ticket&gt;PC 17601&amp;#x3C;/Ticket&gt;&amp;#x3C;Fare&gt;27.7208&amp;#x3C;/Fare&gt;&amp;#x3C;Cabin/&gt;&amp;#x3C;Embarked&gt;C&amp;#x3C;/Embarked&gt;&amp;#x3C;/root&gt;
+&amp;#x3C;root&gt;&amp;#x3C;PassengerId&gt;32&amp;#x3C;/PassengerId&gt;&amp;#x3C;Survived&gt;1&amp;#x3C;/Survived&gt;&amp;#x3C;Pclass&gt;1&amp;#x3C;/Pclass&gt;&amp;#x3C;Name&gt;Spencer, Mrs. William Augustus (Marie Eugenie)&amp;#x3C;/Name&gt;&amp;#x3C;Sex&gt;female&amp;#x3C;/Sex&gt;&amp;#x3C;Age/&gt;&amp;#x3C;SibSp&gt;1&amp;#x3C;/SibSp&gt;&amp;#x3C;Parch&gt;0&amp;#x3C;/Parch&gt;&amp;#x3C;Ticket&gt;PC 17569&amp;#x3C;/Ticket&gt;&amp;#x3C;Fare&gt;146.5208&amp;#x3C;/Fare&gt;&amp;#x3C;Cabin&gt;B78&amp;#x3C;/Cabin&gt;&amp;#x3C;Embarked&gt;C&amp;#x3C;/Embarked&gt;&amp;#x3C;/root&gt;
+&amp;#x3C;root&gt;&amp;#x3C;PassengerId&gt;33&amp;#x3C;/PassengerId&gt;&amp;#x3C;Survived&gt;1&amp;#x3C;/Survived&gt;&amp;#x3C;Pclass&gt;3&amp;#x3C;/Pclass&gt;&amp;#x3C;Name&gt;Glynn, Miss. Mary Agatha&amp;#x3C;/Name&gt;&amp;#x3C;Sex&gt;female&amp;#x3C;/Sex&gt;&amp;#x3C;Age/&gt;&amp;#x3C;SibSp&gt;0&amp;#x3C;/SibSp&gt;&amp;#x3C;Parch&gt;0&amp;#x3C;/Parch&gt;&amp;#x3C;Ticket&gt;335677&amp;#x3C;/Ticket&gt;&amp;#x3C;Fare&gt;7.75&amp;#x3C;/Fare&gt;&amp;#x3C;Cabin/&gt;&amp;#x3C;Embarked&gt;Q&amp;#x3C;/Embarked&gt;&amp;#x3C;/root&gt;
+&amp;#x3C;root&gt;&amp;#x3C;PassengerId&gt;34&amp;#x3C;/PassengerId&gt;&amp;#x3C;Survived&gt;0&amp;#x3C;/Survived&gt;&amp;#x3C;Pclass&gt;2&amp;#x3C;/Pclass&gt;&amp;#x3C;Name&gt;Wheadon, Mr. Edward H&amp;#x3C;/Name&gt;&amp;#x3C;Sex&gt;male&amp;#x3C;/Sex&gt;&amp;#x3C;Age&gt;66&amp;#x3C;/Age&gt;&amp;#x3C;SibSp&gt;0&amp;#x3C;/SibSp&gt;&amp;#x3C;Parch&gt;0&amp;#x3C;/Parch&gt;&amp;#x3C;Ticket&gt;C.A. 24579&amp;#x3C;/Ticket&gt;&amp;#x3C;Fare&gt;10.5&amp;#x3C;/Fare&gt;&amp;#x3C;Cabin/&gt;&amp;#x3C;Embarked&gt;S&amp;#x3C;/Embarked&gt;&amp;#x3C;/root&gt;
+&amp;#x3C;root&gt;&amp;#x3C;PassengerId&gt;35&amp;#x3C;/PassengerId&gt;&amp;#x3C;Survived&gt;0&amp;#x3C;/Survived&gt;&amp;#x3C;Pclass&gt;1&amp;#x3C;/Pclass&gt;&amp;#x3C;Name&gt;Meyer, Mr. Edgar Joseph&amp;#x3C;/Name&gt;&amp;#x3C;Sex&gt;male&amp;#x3C;/Sex&gt;&amp;#x3C;Age&gt;28&amp;#x3C;/Age&gt;&amp;#x3C;SibSp&gt;1&amp;#x3C;/SibSp&gt;&amp;#x3C;Parch&gt;0&amp;#x3C;/Parch&gt;&amp;#x3C;Ticket&gt;PC 17604&amp;#x3C;/Ticket&gt;&amp;#x3C;Fare&gt;82.1708&amp;#x3C;/Fare&gt;&amp;#x3C;Cabin/&gt;&amp;#x3C;Embarked&gt;C&amp;#x3C;/Embarked&gt;&amp;#x3C;/root&gt;
+&amp;#x3C;/ObjectNode&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;yaml&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#yaml&quot; aria-label=&quot;yaml permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;YAML&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;---
+- PassengerId: &quot;31&quot;
+  Survived: &quot;0&quot;
+  Pclass: &quot;1&quot;
+  Name: &quot;Uruchurtu, Don. Manuel E&quot;
+  Sex: &quot;male&quot;
+  Age: 40
+  SibSp: &quot;0&quot;
+  Parch: &quot;0&quot;
+  Ticket: &quot;PC 17601&quot;
+  Fare: 27.7208
+  Cabin: null
+  Embarked: &quot;C&quot;
+...
+- PassengerId: &quot;35&quot;
+  Survived: &quot;0&quot;
+  Pclass: &quot;1&quot;
+  Name: &quot;Meyer, Mr. Edgar Joseph&quot;
+  Sex: &quot;male&quot;
+  Age: 28
+  SibSp: &quot;1&quot;
+  Parch: &quot;0&quot;
+  Ticket: &quot;PC 17604&quot;
+  Fare: 82.1708
+  Cabin: null
+  Embarked: &quot;C&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;csv&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#csv&quot; aria-label=&quot;csv permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CSV&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+31,0,1,&quot;Uruchurtu, Don. Manuel E&quot;,male,40,0,0,&quot;PC 17601&quot;,27.7208,,C
+32,1,1,&quot;Spencer, Mrs. William Augustus (Marie Eugenie)&quot;,female,,1,0,&quot;PC 17569&quot;,146.5208,B78,C
+33,1,3,&quot;Glynn, Miss. Mary Agatha&quot;,female,,0,0,335677,7.75,,Q
+34,0,2,&quot;Wheadon, Mr. Edward H&quot;,male,66,0,0,&quot;C.A. 24579&quot;,10.5,,S
+35,0,1,&quot;Meyer, Mr. Edgar Joseph&quot;,male,28,1,0,&quot;PC 17604&quot;,82.1708,,C
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;token-usage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#token-usage&quot; aria-label=&quot;token usage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Token Usage&lt;/h4&gt;
+&lt;p&gt;Here is the tokens usage estimates per each format&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Format&lt;/th&gt;
+&lt;th&gt;Prompt Tokens&lt;/th&gt;
+&lt;th&gt;Completion Tokens&lt;/th&gt;
+&lt;th&gt;Total Tokens&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CSV&lt;/td&gt;
+&lt;td&gt;293&lt;/td&gt;
+&lt;td&gt;522&lt;/td&gt;
+&lt;td&gt;815&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TOON&lt;/td&gt;
+&lt;td&gt;308&lt;/td&gt;
+&lt;td&gt;538&lt;/td&gt;
+&lt;td&gt;846&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JSON&lt;/td&gt;
+&lt;td&gt;447&lt;/td&gt;
+&lt;td&gt;545&lt;/td&gt;
+&lt;td&gt;992&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;YAML&lt;/td&gt;
+&lt;td&gt;548&lt;/td&gt;
+&lt;td&gt;380&lt;/td&gt;
+&lt;td&gt;928&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;XML&lt;/td&gt;
+&lt;td&gt;599&lt;/td&gt;
+&lt;td&gt;572&lt;/td&gt;
+&lt;td&gt;1171&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;best-practices-and-recommendations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#best-practices-and-recommendations&quot; aria-label=&quot;best practices and recommendations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Best Practices and Recommendations&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Validation to check whether the mentioned version is syntactically correct (in case the default versioning format is configured)&lt;/li&gt;
-&lt;li&gt;Validation to check several conditions for the strategy configuration (path segment is not mixed with other strategies, strategy is not configured multiple times, etc.)&lt;/li&gt;
+&lt;li&gt;Start with JSON?it&apos;s proven, safe, and universally understood&lt;/li&gt;
+&lt;li&gt;Measure performance in your specific context; don&apos;t assume alternatives are always better&lt;/li&gt;
+&lt;li&gt;Avoid converting complex nested structures to CSV or TOON&lt;/li&gt;
+&lt;li&gt;Include error handling in all converters&lt;/li&gt;
+&lt;li&gt;Provide JSON fallback when conversion fails&lt;/li&gt;
+&lt;li&gt;Log conversion metrics for monitoring&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://static.spring.io/blog/mlippert/20251124/04-api-versioning-mixed-strategies.png&quot; alt=&quot;Validation showing an error if the version strategy configuration uses path segments in combination with another strategy&quot; width=&quot;680&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;support-for-bean-registrars&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#support-for-bean-registrars&quot; aria-label=&quot;support for bean registrars permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Support for bean registrars&lt;/h2&gt;
-&lt;p&gt;Functional bean definitions have been improved quite a bit in Spring Framework 7. The new &lt;a href=&quot;https://docs.spring.io/spring-framework/reference/core/beans/java/programmatic-bean-registration.html&quot;&gt;bean registrar&lt;/a&gt; mechanism allows you to programmatically define beans in a more structured way. Spring Tools 5 understands these bean definitions in the same way as other bean definitions in your source code and shows those bean definitions among others - just as you would expect. Whether you hit content-assist on a &lt;code&gt;@DependsOn&lt;/code&gt; annotation value or want to quickly navigate to a specific bean definition, beans defined via bean registrars will show up automatically.&lt;/p&gt;
-&lt;h2 id=&quot;support-for-aot-repositories&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#support-for-aot-repositories&quot; aria-label=&quot;support for aot repositories permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Support for AOT repositories&lt;/h2&gt;
-&lt;p&gt;Spring Data 2025.1 introduced &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/jpa/aot.html#aot.repositories&quot;&gt;ahead of time compiled repositories&lt;/a&gt;. While those repositories come with a number of benefits at startup and runtime, they also allow the tooling to show details about the queries directly in the source code. This extra information, for example, shows you the precise SQL query that will be generated by Spring Data for a repository method, giving you insights into how query methods turn into SQL queries.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://static.spring.io/blog/mlippert/20251124/06-aot-repositories-codelens.png&quot; alt=&quot;Codelenses showing up on top of query methods in Spring Data AOT repositories&quot; width=&quot;900&quot;&gt;&lt;/p&gt;
-&lt;p&gt;In addition to the codelens showing you details of the generated query statements, the integration for AOT repositories also lets you jump from the repository interface definition directly to the generated source code for the repository, or quickly turn the generated SQL query into a &lt;code&gt;@Query&lt;/code&gt; annotation.&lt;/p&gt;
-&lt;p&gt;The tooling uses metadata that Spring Data produces while generating the source code for the repository ahead of time during the build process. This also means that the visualized information is not necessarily in-sync with the code that you see in the editor. You can update the AOT metadata (and therefore the code lens) either by running the build of the project or via using the code lens to refresh the AOT metadata only.&lt;/p&gt;
-&lt;h2 id=&quot;automatic-configuration-for-jspecify-annotations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#automatic-configuration-for-jspecify-annotations&quot; aria-label=&quot;automatic configuration for jspecify annotations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Automatic configuration for JSpecify annotations&lt;/h2&gt;
-&lt;p&gt;The java compiler used inside of the various environments the Spring Tools are built for (including Visual Studio Code, Cursor, Eclipse, and more) is already capable of running extensive annotation-based null analysis. But you need to tell the compiler which annotations to take into account for this analysis. The Spring Tools 5 distribution for Eclipse configures the JSpecify annotations automatically. As a user, you only need to enable the annotation-based null analysis in the preferences. The upcoming versions of the Java support for Visual Studio Code, Cursor, and Theia will also have the JSpecify annotations pre-configured and ready to use. In those environments, a popup will ask you to enable the analysis, if those annotations are on the classpath of your project.&lt;/p&gt;
-&lt;h2 id=&quot;looking-forward&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#looking-forward&quot; aria-label=&quot;looking forward permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Looking forward&lt;/h2&gt;
-&lt;p&gt;If you want to try the latest release candidates of Spring Tools 5, please go to the &lt;a href=&quot;https://spring.io/tools5&quot;&gt;tools preview page&lt;/a&gt; or switch to the pre-releases of the extensions in Visual Studio Code.&lt;/p&gt;
-&lt;p&gt;In upcoming parts of this Spring Tools 5 blog series, we will take a look at the new stereotype-based logical structure view, and get a glimpse at how Spring Tools integrate with AI tools, followed by the GA of the Spring Tools 5. Stay tuned.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Modulith 2.0 GA, 1.4.5, and 1.3.11 released]]></title><link>https://spring.io/blog/2025/11/21/spring-modulith-2-0-ga-1-4-5-and-1-3-11-released</link><guid isPermaLink="true">https://spring.io/blog/2025/11/21/spring-modulith-2-0-ga-1-4-5-and-1-3-11-released</guid><dc:creator><![CDATA[odrotbohm]]></dc:creator><pubDate>Fri, 21 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the communit I am happy to announce the availablity of Spring Modulith 2.0. The release is an important milestone incorporating all learnings we&apos;ve made in Spring Modulith&apos;s first generation. We ship the following major features:&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Spring AI offers flexibility for experimenting with tool response formats through two distinct approaches. Use &lt;code&gt;ToolCallResultConverter&lt;/code&gt; for selective, per-tool conversion when you need fine-grained control. Choose the global &lt;code&gt;DelegatorToolCallbackProvider&lt;/code&gt; approach for consistent format conversion across all tools, including MCP tools. Both support multiple formats?TOON, YAML, XML, CSV, and JSON?giving you the freedom to optimize for your specific use case.&lt;/p&gt;
+&lt;h3 id=&quot;try-it-yourself&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#try-it-yourself&quot; aria-label=&quot;try it yourself permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Try It Yourself&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The following code is for demonstration purposes only and should not be used in production without proper testing, error handling, and security considerations.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The complete demo is available on &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo&quot;&gt;GitHub&lt;/a&gt;. Run it with different formats:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;./mvnw spring-boot:run -Dspring.ai.tool.response.format=TOON
+./mvnw spring-boot:run -Dspring.ai.tool.response.format=CSV  
+./mvnw spring-boot:run -Dspring.ai.tool.response.format=YAML
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Experiment with the formats and measure their impact in your specific environment to determine what works best for your use case.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Overhaul event publication lifecycle &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/796&quot;&gt;#796&lt;/a&gt; (Neo4j &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1337&quot;&gt;#1337&lt;/a&gt;, MongoDB &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1336&quot;&gt;#1336&lt;/a&gt;, JDBC &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1321&quot;&gt;#1321&lt;/a&gt;, JPA &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1375&quot;&gt;#1375&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1389&quot;&gt;#1389&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Support for application-module-specific Flyway migrations &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1067&quot;&gt;#1067&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1440&quot;&gt;#1440&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Allow serialized execution of event externalization &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1370&quot;&gt;#1370&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support for Jackson 3 in event serialization &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1364&quot;&gt;#1364&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1369&quot;&gt;#1369&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support to verify application module structure on startup &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1287&quot;&gt;#1287&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Migrate nullness verification to jSpecify &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1192&quot;&gt;#1192&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Propagate named interface assignments of types to return and parameter types of methods declared &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1264&quot;&gt;#1264&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Extract module description from a module&apos;s &lt;code&gt;package-info.java&lt;/code&gt; Javadoc &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1430&quot;&gt;#1430&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Remove deprecated &lt;code&gt;@ApplicationEventListener&lt;/code&gt; annotation &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/1397&quot;&gt;#1397&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example Code&lt;/strong&gt;: &lt;a href=&quot;https://github.com/tzolov/spring-ai-tool-response-format-demo/&quot;&gt;spring-ai-tool-response-format-demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spring AI Documentation&lt;/strong&gt;: &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/&quot;&gt;https://docs.spring.io/spring-ai/reference/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TOON Format&lt;/strong&gt;: &lt;a href=&quot;https://github.com/toon-format/toon&quot;&gt;https://github.com/toon-format/toon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Critical Analysis&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.improvingagents.com/blog/toon-benchmarks&quot;&gt;https://www.improvingagents.com/blog/toon-benchmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.towardsdeeplearning.com/toon-benchmarks-a-critical-analysis-of-different-results-d2a74563adca&quot;&gt;https://www.towardsdeeplearning.com/toon-benchmarks-a-critical-analysis-of-different-results-d2a74563adca&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We have also upgraded our baselines to Spring Boot 4 and Framework 7. Watch this space for a more detailed blog post about the individual features coming soon. Find more details about the releases in the full &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/2.0.0&quot;&gt;changelog&lt;/a&gt;. We&apos;ve also shipped bugfix releases for the &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.4.5&quot;&gt;1.4&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.3.11&quot;&gt;1.3&lt;/a&gt; generations.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: The legendary S?bastien Deleuze on all that's new and nice in Spring Framework 7]]></title><link>https://spring.io/blog/2025/11/20/a-bootiful-podcast-sebastien-deleuze</link><guid isPermaLink="true">https://spring.io/blog/2025/11/20/a-bootiful-podcast-sebastien-deleuze</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Happy Spring Boot 4.0 release day! Make sure to get the bits on the Spring Initializr (you know - &lt;a href=&quot;https://start.spring.io&quot;&gt;start.spring.io&lt;/a&gt;)! This release is packed with new features, a lot of which comes from Spring Framework 7. To help break it down for us this week, we¡¯re joined by none other than the legendary Spring Framework contributor S?bastien Deleuze!&lt;/p&gt;
-&lt;iframe title=&quot;The legendary S?bastien Deleuze on all that¡¯s new and nice in Spring Framework 7&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=2d53h-19cb5a6-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;rtl=0&amp;logo_link=&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item></channel></rss>
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
