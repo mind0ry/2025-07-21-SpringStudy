@@ -34,7 +34,7 @@ public class FoodController {
 		Cookie[] cookies=request.getCookies();
 		if(cookies!=null) {
 			for(int i=0;i<cookies.length;i++) {
-				if(cookies[i].equals("food_"+fno)) {
+				if(cookies[i].getName().equals("food_"+fno)) {
 					cookies[i].setPath("/");
 					cookies[i].setMaxAge(0);
 					response.addCookie(cookies[i]);
@@ -67,4 +67,10 @@ public class FoodController {
 		return "main/main";
 	}
 	
+	@GetMapping("food/type.do")
+	public String food_type(Model model) {
+		
+		model.addAttribute("main_jsp", "../food/type.jsp");
+		return "main/main";
+	}
 }

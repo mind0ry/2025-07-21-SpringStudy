@@ -41,4 +41,18 @@ public interface FoodMapper {
 	@Select("SELECT CEIL(COUNT(*)/12.0) FROM menupan_food "
 			+ "WHERE REGEXP_LIKE(address,#{address})")
 	public int foodFindTotalPage(String address);
+	
+	// 카테고리별 
+	@Select("SELECT fno,name,poster,num "
+			+ "FROM (SELECT fno,name,poster,rownum as num "
+			+ "FROM (SELECT fno,name,poster "
+			+ "FROM menupan_food "
+			+ "WHERE REGEXP_LIKE(type,#{type}) "
+			+ "ORDER BY fno ASC)) "
+			+ "WHERE num BETWEEN #{start} AND #{end}")
+	public List<FoodVO> foodTypeData(Map map);
+	
+	@Select("SELECT CEIL(COUNT(*)/12.0) FROM menupan_food "
+			+ "WHERE REGEXP_LIKE(type,#{type})")
+	public int foodTypeTotalPage(String type);
 }

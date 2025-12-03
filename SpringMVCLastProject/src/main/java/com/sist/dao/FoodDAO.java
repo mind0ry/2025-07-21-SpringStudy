@@ -50,5 +50,13 @@ public class FoodDAO {
 	public int foodFindTotalPage(String address) {
 		return mapper.foodFindTotalPage(address);
 	}
+
+	public List<FoodVO> foodTypeData(Map map) {
+		return mapper.foodTypeData(map);
+	}
+	
+	public int foodTypeTotalPage(String type) {
+		return mapper.foodTypeTotalPage(type);
+	}
 	
 }
