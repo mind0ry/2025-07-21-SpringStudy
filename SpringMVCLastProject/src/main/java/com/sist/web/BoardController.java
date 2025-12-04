@@ -17,4 +17,22 @@ public class BoardController {
 		model.addAttribute("main_jsp", "../board/insert.jsp");
 		return "main/main";
 	}
+	
+	@GetMapping("board/update.do")
+	public String board_update(int no,Model model) {
+		model.addAttribute("no",no);
+		
+		model.addAttribute("main_jsp", "../board/update.jsp");
+		
+		return "main/main";
+	}
+	
+	@GetMapping("board/detail.do")
+	public String board_detail(int no,Model model) {
+		
+		model.addAttribute("no",no);
+		model.addAttribute("main_jsp", "../board/detail.jsp");
+		
+		return "main/main";
+	}
 }
